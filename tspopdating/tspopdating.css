@@ -1,0 +1,139 @@
+ /*Widget bottom carusel*/
+ #new_user_alert {
+    display: none;
+    right: 20px !important;
+    bottom: 5px;
+    position: fixed;
+    z-index: 999;
+}
+
+.new_user_alert_block {
+    width: 230px;
+    z-index: 101
+}
+
+.new_user_alert_block a,
+.new_user_alert_block a:hover {
+    color: #FFF;
+    text-decoration: none
+}
+
+.new_user_alert_box {
+    opacity: 1;
+    border-radius: 4px;
+    width: 240px;
+    height: 100px;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 4px 5px 0;
+    background: #1B1F24;
+    background: rgba(27, 31, 36, 0.9);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.75)
+}
+
+.new_user_alert_cont {
+    height: 58px;
+    overflow: hidden;
+    line-height: 18px;
+    margin: 27px 0 0 100px;
+}
+
+.new_user_alert_close {
+    width: 16px;
+    height: 17px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    right: auto;
+    right: -6px;
+    top: 3px;
+    position: absolute;
+    z-index: 1;
+    padding-top: 7px;
+    background: none
+}
+
+.new_user_alert_close:hover {
+    color: #6B7075;
+    text-decoration: none
+}
+
+.new_user_alert_user {
+    color: #fff
+}
+
+.new_user_alert_city {
+    color: #fff
+}
+
+.new_user_alert_city,
+.new_user_alert_new,
+.new_user_alert_new b,
+.new_user_alert_user,
+.new_user_alert_user b,
+.new_user_alert_user {
+    color: #fff !important
+}
+
+.new_user_alert_new {
+    position: absolute;
+    left: 100px;
+    padding-left: 0;
+    padding-left: 15px;
+    text-align: right;
+    top: -3px;
+}
+
+.new_user_alert_new:before {
+    width: 7px;
+    height: 7px;
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    top: 6px;
+    background-color: #00ff3c
+}
+
+#new_user_alert .fl {
+    float: left;
+    border-radius: 3px;
+}
+
+#new_user_alert .mt11 {
+    margin-top: 11px;
+}
+
+.new_user_alert_box--in {
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+.mssg {
+    direction: ltr;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    font-size: 13px;
+}
